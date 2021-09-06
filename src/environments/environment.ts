@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   //Conexion a la API
-  apiURL: 'https://pokeapi.co',
+  apiURL: 'https://pokeapi.co/api/v2',
   endpoints: {
     //endpoints a los que estoy accediendo
   }
