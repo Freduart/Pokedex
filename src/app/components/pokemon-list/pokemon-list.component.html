@@ -33,7 +33,7 @@
   <div *ngIf="isSearching" class="pokemon__list" (scroll)="onScroll($event)">
       <!-- <div (click)="onDetail()" class="col-sm-6 col-md-6 col-lg-4 col-xl-4"> -->
           <div class="card {{'bg-color-'+getPrincipalType(searchPokemon.types) +'-light'}}">
-            <img class="card__bg" src="../../../assets/images/Pokebg.png" alt="pokeball-card">
+            <img class="card__bg" src="assets/imges/pokebg.png" alt="pokeball-card">
               <div class="card__info">
                   <h2 class="color-white">{{searchPokemon.name}}</h2>
                   <span class="color-white {{'bg-color-'+getPrincipalType(searchPokemon.types)}}" *ngFor="let type of searchPokemon.types">{{type.type.name}}</span>                    
